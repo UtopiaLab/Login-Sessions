@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #111111;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #0066CC;
+}
+
+.main-image {
+    background-image: url("images/logo.png");
+    background-size: 150px 90px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 150px;
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0066CC;
+}
+
+a:hover {
+    color: #0099FF;
+}
+
+.error {
+    color: crimson;
+}
+
+.success {
+    color: seagreen;
+}
